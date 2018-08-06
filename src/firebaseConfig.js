@@ -3,13 +3,13 @@ import 'firebase/firestore'
 
 // firebase init goes here
 const config = {
-    apiKey: "AIzaSyBdw_LHTk-2laK1uu-NSCnT5wTmty2Yehc",
-    authDomain: "project-kanban-v1.firebaseapp.com",
-    databaseURL: "https://project-kanban-v1.firebaseio.com",
-    projectId: "project-kanban-v1",
-    storageBucket: "project-kanban-v1.appspot.com",
-    messagingSenderId: "288286113803"
-  };
+	apiKey: "",
+	authDomain: "",
+	databaseURL: "",
+	projectId: "",
+	storageBucket: "",
+	messagingSenderId: ""
+};
 firebase.initializeApp(config)
 
 // firebase utils
